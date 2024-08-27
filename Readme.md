@@ -1,5 +1,6 @@
 ## Run container
-### Prerequisites: Docker Daemon should be running (install and run Docker Desktop or Orbstack.dev)
+### Prerequisites:
+Docker Daemon should be running (install and run Docker Desktop or Orbstack.dev)
 
 ### Basic commands:
 - `make build` (build and up container)
@@ -7,6 +8,8 @@
 - `make up` (just for up container)
 - `make down` (shutdown container)
 - `show_logs` (show logs from the container)
+
+For simple testing you just need `make build` and later, after testing `make down`
 
 Ensure the Container has started and the default network was created before testing the endpoints:
 ```[+] Running 2/2
