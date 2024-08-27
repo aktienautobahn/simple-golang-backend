@@ -26,3 +26,8 @@ PUT: curl -X PUT -d '{"name":"UpdatedItem","price":500}' http://localhost:8000/i
 DELETE: curl -X DELETE http://localhost:8000/items/1
 ```
 You can use Webbrowser to send GET requests: e.g. `http://localhost:8000/items`
+
+Result you get:
+![GET Result](GET.png)
+
+Open Developer tools (right click -> Inspect) -> Network (reload page) to see more information .
